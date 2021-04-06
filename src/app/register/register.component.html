@@ -1,0 +1,17 @@
+<div class="wrapper">
+    <mat-card class="matcard">
+        <form class="example-form"  (ngSubmit)="onSubmit()">
+            <mat-form-field class="example-full-width">
+              <mat-label>Username</mat-label>
+              <input matInput required placeholder="Username" name="username" [(ngModel)]="credentials.username" appearance="outline">
+            </mat-form-field>
+          
+            <mat-form-field class="example-full-width">
+              <mat-label>Password</mat-label>
+              <input matInput required placeholder="Password" name="password" [(ngModel)]="credentials.password" type="password" appearance="outline">
+            </mat-form-field>
+            <button type="submit" mat-raised-button color="primary">Register</button>
+          </form>
+    </mat-card>
+</div>
+

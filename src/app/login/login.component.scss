@@ -1,0 +1,19 @@
+.wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80%;
+
+        
+    .matcard{
+        text-align:center;
+        width:400px;
+        height:200px;
+        // margin: auto;
+        display: flex;
+        .example-full-width{
+            width:100%;
+        }
+    }
+
+}
